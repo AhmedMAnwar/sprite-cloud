@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import drvier.WebDriverExecuter;
-import fileloader.PropertyFileLoader;
+import fileloader.WebPropertyFileLoader;
 import webelement.NavBarWebElement;
 
 /*
@@ -16,13 +16,13 @@ import webelement.NavBarWebElement;
  */
 public class NavBarTests extends TestBase{
 
-    PropertyFileLoader propertyFile;
+    WebPropertyFileLoader webPropertyFileLoader;
     NavBarWebElement navBarWebElement;
 
     @BeforeClass
     public void openPageURL() throws IOException {
        webDriver = new WebDriverExecuter();
-       propertyFile = new PropertyFileLoader();
+       webPropertyFileLoader = new WebPropertyFileLoader();
        webDriver.openUiTapPage();
     }
 
@@ -34,7 +34,7 @@ public class NavBarTests extends TestBase{
     @Test(priority = 1, description = "Veryfing switching to home tab")
     public void isHomePageOpened() {
         assertEquals(navBarWebElement.getHomeWebElement().getPageURL(),
-                     propertyFile.getHomeUrl());
+                     webPropertyFileLoader.getHomeUrl());
     }
 
     @Test(priority = 2, description = "Veryfing switching to resources tab")
@@ -46,6 +46,6 @@ public class NavBarTests extends TestBase{
     @Test(priority = 3, description = "Veryfing switching to UI tab")
     public void isUiTabPageOpened() {
         assertEquals(navBarWebElement.getUiTapWebElement().getPageURL(),
-                     propertyFile.getUiTapUrl());
+                     webPropertyFileLoader.getUiTapUrl());
     }
 }

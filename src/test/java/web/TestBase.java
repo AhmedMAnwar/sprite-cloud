@@ -4,6 +4,9 @@ import org.testng.annotations.AfterClass;
 
 import drvier.WebDriverExecuter;
 
+/*
+ * Base class of test cases.
+ */
 public class TestBase {
     WebDriverExecuter webDriver;
 

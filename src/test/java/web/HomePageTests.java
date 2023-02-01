@@ -7,7 +7,6 @@ import static org.testng.Assert.assertTrue;
 import java.io.IOException;
 
 import org.openqa.selenium.ElementClickInterceptedException;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -15,6 +14,9 @@ import org.testng.annotations.Test;
 import drvier.WebDriverExecuter;
 import webelement.HomeWebElement;
 
+/*
+ * Home Page test cases.
+ */
 public class HomePageTests extends TestBase{
     HomeWebElement homeWebElement;
 

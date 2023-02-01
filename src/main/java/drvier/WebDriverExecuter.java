@@ -5,19 +5,22 @@ import java.io.IOException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import fileloader.PropertyFileLoader;
+import fileloader.WebPropertyFileLoader;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+/*
+ * Class presenting web driver executer.
+ */
 public class WebDriverExecuter {
 
-    PropertyFileLoader propertyFile;
+    WebPropertyFileLoader webPropertyFileLoader;
 
     final WebDriver chromeDriver;
 
     public WebDriverExecuter() throws IOException {
         WebDriverManager.chromedriver().setup();
         this.chromeDriver = new ChromeDriver();
-        this.propertyFile = new PropertyFileLoader();
+        this.webPropertyFileLoader = new WebPropertyFileLoader();
     }
 
     public WebDriver getWebDriver() {
@@ -25,14 +28,14 @@ public class WebDriverExecuter {
     }
 
     public void openUiTapPage() {
-        chromeDriver.get(propertyFile.getUiTapUrl());
+        chromeDriver.get(webPropertyFileLoader.getUiTapUrl());
     }
 
     public void openHomePage() {
-        chromeDriver.get(propertyFile.getHomeUrl());
+        chromeDriver.get(webPropertyFileLoader.getHomeUrl());
     }
 
     public void openResourcesPage() {
-        chromeDriver.get(propertyFile.getResourcesUrl());
+        chromeDriver.get(webPropertyFileLoader.getResourcesUrl());
     }
 }

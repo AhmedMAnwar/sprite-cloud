@@ -4,6 +4,11 @@
 	<artifactId>sprite-cloud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
 	<!-- Selenium repo -->
 	<dependencies>
 		<dependency>
@@ -12,7 +17,7 @@
 			<version>3.141.59</version>
 		</dependency>
 
-		<!-- Testng Repo -->
+		<!-- Testng repo -->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
@@ -20,11 +25,34 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- Webdriver manager -->
+		<!-- Webdriver manager repo -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
 			<version>4.4.3</version>
+		</dependency>
+
+		<!-- Rest Assured repo -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>5.3.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Hamcrest repo -->
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-all</artifactId>
+			<version>1.3</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Jackson repo -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.14.1</version>
 		</dependency>
 
 	</dependencies>

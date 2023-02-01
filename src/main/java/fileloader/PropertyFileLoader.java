@@ -6,28 +6,18 @@ import java.io.InputStream;
 import java.net.URL;
 import java.util.Properties;
 
-
+/*
+ * Base of property files.
+ */
 public class PropertyFileLoader {
 
-        private final static String urlPath = "/weburls.properties";
-        private final Properties properties;
+        protected Properties properties;
 
-        public PropertyFileLoader() throws IOException {
+        public PropertyFileLoader(String urlPath) throws IOException {
             URL url = PropertyFileLoader.class.getResource(urlPath);
             InputStream inputStream = new FileInputStream(url.getPath());
             this.properties = new Properties();
             properties.load(inputStream);
         }
 
-        public String getUiTapUrl() {
-            return properties.getProperty("UI_TAP_URL");
-        }
-
-        public String getHomeUrl() {
-            return properties.getProperty("HOME_URL");
-        }
-
-        public String getResourcesUrl() {
-            return properties.getProperty("RESOURCES_URL");
-        }
 }

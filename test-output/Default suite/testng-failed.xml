@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="web.HomePageTestCases">
+      <class name="api.StoreTests">
         <methods>
-          <include name="forwardBackToHomePage"/>
-          <include name="closeWebDriver"/>
-          <include name="trackProgressBarUpdate"/>
-          <include name="openPageURL"/>
+          <include name="isInventroyReturned"/>
+          <include name="preConfiguration"/>
         </methods>
-      </class> <!-- web.HomePageTestCases -->
+      </class> <!-- api.StoreTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
