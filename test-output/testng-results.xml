@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-29T17:31:31 CET" name="Testing Web app" finished-at="2023-01-29T17:32:47 CET" duration-ms="76585">
+    <groups>
+    </groups>
+    <test started-at="2023-01-29T17:31:31 CET" name="Resources Tests" finished-at="2023-01-29T17:31:49 CET" duration-ms="18550">
+      <class name="web.ResourcesTests">
+        <test-method is-config="true" signature="openPageURL()[pri:0, instance:web.ResourcesTests@20f5239f]" started-at="2023-01-29T17:31:31 CET" name="openPageURL" finished-at="2023-01-29T17:31:33 CET" duration-ms="2146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPageURL -->
+        <test-method signature="isResourcesPageHeadersPresented()[pri:1, instance:web.ResourcesTests@20f5239f]" started-at="2023-01-29T17:31:33 CET" name="isResourcesPageHeadersPresented" description="Veryfing resources page having all headers" finished-at="2023-01-29T17:31:33 CET" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isResourcesPageHeadersPresented -->
+        <test-method signature="isResourcePageLinksPresented()[pri:2, instance:web.ResourcesTests@20f5239f]" started-at="2023-01-29T17:31:33 CET" name="isResourcePageLinksPresented" description="Veryfing resource page having all links" finished-at="2023-01-29T17:31:33 CET" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isResourcePageLinksPresented -->
+        <test-method is-config="true" signature="closeWebDriver()[pri:0, instance:web.ResourcesTests@20f5239f]" started-at="2023-01-29T17:31:33 CET" name="closeWebDriver" finished-at="2023-01-29T17:31:49 CET" duration-ms="16203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebDriver -->
+      </class> <!-- web.ResourcesTests -->
+    </test> <!-- Resources Tests -->
+    <test started-at="2023-01-29T17:31:49 CET" name="NavBar Tests" finished-at="2023-01-29T17:31:52 CET" duration-ms="2627">
+      <class name="web.NavBarTests">
+        <test-method is-config="true" signature="openPageURL()[pri:0, instance:web.NavBarTests@f736069]" started-at="2023-01-29T17:31:49 CET" name="openPageURL" finished-at="2023-01-29T17:31:51 CET" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPageURL -->
+        <test-method is-config="true" signature="initiateNavBarWebElement()[pri:0, instance:web.NavBarTests@f736069]" started-at="2023-01-29T17:31:51 CET" name="initiateNavBarWebElement" finished-at="2023-01-29T17:31:51 CET" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateNavBarWebElement -->
+        <test-method signature="isHomePageOpened()[pri:1, instance:web.NavBarTests@f736069]" started-at="2023-01-29T17:31:51 CET" name="isHomePageOpened" description="Veryfing switching to home tab" finished-at="2023-01-29T17:31:51 CET" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isHomePageOpened -->
+        <test-method is-config="true" signature="initiateNavBarWebElement()[pri:0, instance:web.NavBarTests@f736069]" started-at="2023-01-29T17:31:51 CET" name="initiateNavBarWebElement" finished-at="2023-01-29T17:31:51 CET" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateNavBarWebElement -->
+        <test-method signature="isResourcePageOpened()[pri:2, instance:web.NavBarTests@f736069]" started-at="2023-01-29T17:31:51 CET" name="isResourcePageOpened" description="Veryfing switching to resources tab" finished-at="2023-01-29T17:31:52 CET" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isResourcePageOpened -->
+        <test-method is-config="true" signature="initiateNavBarWebElement()[pri:0, instance:web.NavBarTests@f736069]" started-at="2023-01-29T17:31:52 CET" name="initiateNavBarWebElement" finished-at="2023-01-29T17:31:52 CET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateNavBarWebElement -->
+        <test-method signature="isUiTabPageOpened()[pri:3, instance:web.NavBarTests@f736069]" started-at="2023-01-29T17:31:52 CET" name="isUiTabPageOpened" description="Veryfing switching to UI tab" finished-at="2023-01-29T17:31:52 CET" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isUiTabPageOpened -->
+        <test-method is-config="true" signature="closeWebDriver()[pri:0, instance:web.NavBarTests@f736069]" started-at="2023-01-29T17:31:52 CET" name="closeWebDriver" finished-at="2023-01-29T17:31:52 CET" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebDriver -->
+      </class> <!-- web.NavBarTests -->
+    </test> <!-- NavBar Tests -->
+    <test started-at="2023-01-29T17:31:52 CET" name="Home Page Tests" finished-at="2023-01-29T17:32:47 CET" duration-ms="55386">
+      <class name="web.HomePageTests">
+        <test-method is-config="true" signature="openPageURL()[pri:0, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:31:52 CET" name="openPageURL" finished-at="2023-01-29T17:31:54 CET" duration-ms="1721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPageURL -->
+        <test-method signature="isDyanmicIdButtonChanged()[pri:1, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:31:54 CET" name="isDyanmicIdButtonChanged" description="Veryfing that button id is not changed" finished-at="2023-01-29T17:31:54 CET" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDyanmicIdButtonChanged -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:31:54 CET" name="forwardBackToHomePage" finished-at="2023-01-29T17:31:54 CET" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method signature="isAlertPopUpClosed()[pri:2, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:31:54 CET" name="isAlertPopUpClosed" description="Veryfing if the alert is closed" finished-at="2023-01-29T17:31:54 CET" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAlertPopUpClosed -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:31:54 CET" name="forwardBackToHomePage" finished-at="2023-01-29T17:31:54 CET" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method signature="isGreenButtonNotClickable()[pri:3, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:31:54 CET" name="isGreenButtonNotClickable" description="Veryfing the green button is not clickable" finished-at="2023-01-29T17:31:56 CET" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isGreenButtonNotClickable -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:31:56 CET" name="forwardBackToHomePage" finished-at="2023-01-29T17:31:56 CET" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method signature="isButtonDispalyedAfterDealy()[pri:4, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:31:56 CET" name="isButtonDispalyedAfterDealy" description="Veryfing the button apperance after dealy" finished-at="2023-01-29T17:32:01 CET" duration-ms="5336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isButtonDispalyedAfterDealy -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:32:01 CET" name="forwardBackToHomePage" finished-at="2023-01-29T17:32:01 CET" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method signature="isAjaxDataLoaded()[pri:5, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:32:01 CET" name="isAjaxDataLoaded" description="Veryfing the apperance of AJAX data" finished-at="2023-01-29T17:32:17 CET" duration-ms="15695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAjaxDataLoaded -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:32:17 CET" name="forwardBackToHomePage" finished-at="2023-01-29T17:32:17 CET" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method signature="isButtonIgnoringActionClicked()[pri:6, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:32:17 CET" name="isButtonIgnoringActionClicked" description="Veryfing action over button ignoring click" finished-at="2023-01-29T17:32:17 CET" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isButtonIgnoringActionClicked -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:32:17 CET" name="forwardBackToHomePage" finished-at="2023-01-29T17:32:17 CET" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method signature="isTextAddedToField()[pri:7, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:32:17 CET" name="isTextAddedToField" description="Veryfing added text in text field" finished-at="2023-01-29T17:32:18 CET" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTextAddedToField -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:32:18 CET" name="forwardBackToHomePage" finished-at="2023-01-29T17:32:18 CET" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method signature="isCpuValueMatchChromeCpuValue()[pri:8, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:32:18 CET" name="isCpuValueMatchChromeCpuValue" description="Veryfing matching between CPU cell value and chrome CPU value" finished-at="2023-01-29T17:32:19 CET" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCpuValueMatchChromeCpuValue -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:32:19 CET" name="forwardBackToHomePage" finished-at="2023-01-29T17:32:19 CET" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method signature="trackProgressBarUpdate()[pri:9, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:32:19 CET" name="trackProgressBarUpdate" description="Veryfing the time of progress bar updates" finished-at="2023-01-29T17:32:31 CET" duration-ms="12537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trackProgressBarUpdate -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:32:31 CET" name="forwardBackToHomePage" finished-at="2023-01-29T17:32:31 CET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method is-config="true" signature="closeWebDriver()[pri:0, instance:web.HomePageTests@58695725]" started-at="2023-01-29T17:32:31 CET" name="closeWebDriver" finished-at="2023-01-29T17:32:47 CET" duration-ms="16252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebDriver -->
+      </class> <!-- web.HomePageTests -->
+    </test> <!-- Home Page Tests -->
+  </suite> <!-- Testing Web app -->
+</testng-results>

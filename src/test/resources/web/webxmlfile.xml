@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Web app">
+	<test name="Resources Tests">
+		<classes>
+			<class name="web.ResourcesTests" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="NavBar Tests">
+		<classes>
+			<class name="web.NavBarTests" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Home Page Tests">
+		<classes>
+			<class name="web.HomePageTests" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
