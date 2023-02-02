@@ -1,27 +1,15 @@
 package api;
 
-import java.io.IOException;
-
 import org.hamcrest.Matchers;
 import org.hamcrest.core.IsEqual;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import fileloader.ApiPropertyFileLoader;
 import io.restassured.RestAssured;
 
 /*
  * Store test cases.
  */
-public class StoreTests {
-
-    ApiPropertyFileLoader apiPropertyFileLoader;
-
-    @BeforeClass
-    public void preConfiguration() throws IOException {
-        apiPropertyFileLoader = new ApiPropertyFileLoader();
-        RestAssured.baseURI = apiPropertyFileLoader.getBaseUrl();
-    }
+public class StoreTests extends ApiTestBase {
 
     @Test(priority = 1, description = "Verifying if the order is added")
     public void isOrderAdded() {

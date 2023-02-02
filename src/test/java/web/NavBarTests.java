@@ -14,7 +14,7 @@ import webelement.NavBarWebElement;
 /*
  * Nav bar test cases.
  */
-public class NavBarTests extends TestBase{
+public class NavBarTests extends WebTestBase{
 
     WebPropertyFileLoader webPropertyFileLoader;
     NavBarWebElement navBarWebElement;

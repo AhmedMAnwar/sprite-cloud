@@ -7,7 +7,8 @@ import drvier.WebDriverExecuter;
 /*
  * Base class of test cases.
  */
-public class TestBase {
+public class WebTestBase {
+
     WebDriverExecuter webDriver;
 
     @AfterClass

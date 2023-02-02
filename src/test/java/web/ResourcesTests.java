@@ -14,7 +14,7 @@ import webelement.ResourcesWebElement;
 /*
  * Resources test cases.
  */
-public class ResourcesTests extends TestBase{
+public class ResourcesTests extends WebTestBase{
     ResourcesWebElement resourcesWebElement;
 
     String[] subHeaders = {"Learning", "Standards", "Articles", "Community"};

@@ -6,4 +6,9 @@
 			<class name="api.StoreTests" />
 		</classes>
 	</test> <!-- Test -->
+	<test name="User Tests">
+		<classes>
+			<class name="api.UserTests" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

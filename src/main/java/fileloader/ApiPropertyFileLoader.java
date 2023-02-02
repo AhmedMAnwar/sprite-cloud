@@ -25,4 +25,15 @@ public class ApiPropertyFileLoader extends PropertyFileLoader{
         return properties.getProperty("GET_INVENTORY_URL");
     }
 
+    public String getUserArrayUrl() {
+        return properties.getProperty("CREATE_USER_ARRAY_URL");
+    }
+
+    public String getUserListUrl() {
+        return properties.getProperty("CREATE_USER_LIST_URL");
+    }
+
+    public String getUesrNameUrl() {
+        return properties.getProperty("USERNAME_URL");
+    }
 }

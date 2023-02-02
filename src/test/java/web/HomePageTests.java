@@ -17,7 +17,7 @@ import webelement.HomeWebElement;
 /*
  * Home Page test cases.
  */
-public class HomePageTests extends TestBase{
+public class HomePageTests extends WebTestBase{
     HomeWebElement homeWebElement;
 
     @BeforeClass
