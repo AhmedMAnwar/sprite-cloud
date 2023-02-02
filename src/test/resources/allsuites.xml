@@ -6,5 +6,6 @@
 	</listeners>
 	<suite-files>
 		<suite-file path="src/test/resources/web/webxmlfile.xml" />
+		<suite-file path="src/test/resources/api/apixmlfile.xml" />
 	</suite-files>
 </suite>
