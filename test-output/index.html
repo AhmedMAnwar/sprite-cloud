@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Testing_Web_app" class="navigator-link">
-              <span class="suite-name border-failed">Testing Web app</span>
+              <span class="suite-name border-passed">Testing Web app</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Testing_Web_app" class="navigator-link ">
-                    <span>C:\Users\Ahmed\Desktop\sprite-cloud\src\test\resources\web\webxmlfile.xml</span>
+                    <span>C:\Users\Ahmed\Desktop\spritecloud\src\test\resources\web\webxmlfile.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods, 1 failed,   13 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Testing_Web_app" class="hide-methods failed suite-Testing_Web_app"> (hide)</a> <!-- hide-methods failed suite-Testing_Web_app -->
-                      <a href="#" panel-name="suite-Testing_Web_app" class="show-methods failed suite-Testing_Web_app"> (show)</a> <!-- show-methods failed suite-Testing_Web_app -->
-                    </span>
-                    <div class="method-list-content failed suite-Testing_Web_app">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Testing_Web_app" title="web.HomePageTests" class="method navigator-link" hash-for-method="trackProgressBarUpdate">trackProgressBarUpdate</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Testing_Web_app -->
+                    <span class="method-stats">14 methods,   14 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -181,6 +167,11 @@
                         <a href="#" panel-name="suite-Testing_Web_app" title="web.NavBarTests" class="method navigator-link" hash-for-method="isUiTabPageOpened">isUiTabPageOpened</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Web_app" title="web.HomePageTests" class="method navigator-link" hash-for-method="trackProgressBarUpdate">trackProgressBarUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Testing_Web_app -->
                   </li>
                 </ul>
@@ -204,7 +195,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Testing_API_URLs" class="navigator-link ">
-                    <span>C:\Users\Ahmed\Desktop\sprite-cloud\src\test\resources\api\apixmlfile.xml</span>
+                    <span>C:\Users\Ahmed\Desktop\spritecloud\src\test\resources\api\apixmlfile.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -246,7 +237,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -258,6 +249,11 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Testing_API_URLs" title="api.StoreTests" class="method navigator-link" hash-for-method="isInventroyReturned">isInventroyReturned</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_API_URLs" title="api.StoreTests" class="method navigator-link" hash-for-method="isOrderDeleted">isOrderDeleted</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Testing_API_URLs -->
@@ -272,11 +268,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Testing_API_URLs" title="api.StoreTests" class="method navigator-link" hash-for-method="isOrderAdded">isOrderAdded</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Testing_API_URLs" title="api.StoreTests" class="method navigator-link" hash-for-method="isOrderDeleted">isOrderDeleted</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -298,54 +289,32 @@
         <div panel-name="suite-Selenium_4_POC_Tests_" class="panel Selenium_4_POC_Tests_">
         </div> <!-- panel Selenium_4_POC_Tests_ -->
         <div panel-name="suite-Testing_Web_app" class="panel Testing_Web_app">
-          <div class="suite-Testing_Web_app-class-failed">
+          <div class="suite-Testing_Web_app-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">web.HomePageTests</span>
+              <img src="passed.png"/>
+              <span class="class-name">web.ResourcesTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="trackProgressBarUpdate">
-                  </a> <!-- trackProgressBarUpdate -->
-                  <span class="method-name">trackProgressBarUpdate</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@aria-valuenow=75] (tried for 20 second(s) with 1 milliseconds interval)
-	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at webelement.HomeWebElement.trackProgressBarUpdateValueOf(HomeWebElement.java:239)
-	at web.HomePageTests.trackProgressBarUpdate(HomePageTests.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@aria-valuenow=75]&quot;}
-  (Session info: chrome=109.0.5414.120)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;EPESMALW03F9&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Ahmed\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cdc5b055456c289d4cfc3bba66293995
-*** Element info: {Using=xpath, value=//div[@aria-valuenow=75]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 31 more
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
+                  <a name="isResourcePageLinksPresented">
+                  </a> <!-- isResourcePageLinksPresented -->
+                  <span class="method-name">isResourcePageLinksPresented</span>
                   <em>
-(Veryfing the time of progress bar updates)                  </em>
+(Veryfing resource page having all links)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isResourcesPageHeadersPresented">
+                  </a> <!-- isResourcesPageHeadersPresented -->
+                  <span class="method-name">isResourcesPageHeadersPresented</span>
+                  <em>
+(Veryfing resources page having all headers)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Testing_Web_app-class-failed -->
+          </div> <!-- suite-Testing_Web_app-class-passed -->
           <div class="suite-Testing_Web_app-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -377,32 +346,6 @@ Session ID: cdc5b055456c289d4cfc3bba66293995
                   <span class="method-name">isUiTabPageOpened</span>
                   <em>
 (Veryfing switching to UI tab)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Testing_Web_app-class-passed -->
-          <div class="suite-Testing_Web_app-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">web.ResourcesTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="isResourcePageLinksPresented">
-                  </a> <!-- isResourcePageLinksPresented -->
-                  <span class="method-name">isResourcePageLinksPresented</span>
-                  <em>
-(Veryfing resource page having all links)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="isResourcesPageHeadersPresented">
-                  </a> <!-- isResourcesPageHeadersPresented -->
-                  <span class="method-name">isResourcesPageHeadersPresented</span>
-                  <em>
-(Veryfing resources page having all headers)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -485,6 +428,15 @@ Session ID: cdc5b055456c289d4cfc3bba66293995
 (Veryfing added text in text field)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="trackProgressBarUpdate">
+                  </a> <!-- trackProgressBarUpdate -->
+                  <span class="method-name">trackProgressBarUpdate</span>
+                  <em>
+(Veryfing the time of progress bar updates)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Testing_Web_app-class-passed -->
         </div> <!-- panel Testing_Web_app -->
@@ -501,13 +453,11 @@ Session ID: cdc5b055456c289d4cfc3bba66293995
                   </a> <!-- isInventroyReturned -->
                   <span class="method-name">isInventroyReturned</span>
                   <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-JSON path disponible doesn&apos;t match.
+JSON path unavailable doesn&apos;t match.
 Expected: &lt;1&gt;
   Actual: null
 
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
@@ -521,12 +471,44 @@ Expected: &lt;1&gt;
 	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-	at api.StoreTests.isInventroyReturned(StoreTests.java:74)
+	at api.StoreTests.isInventroyReturned(StoreTests.java:71)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 38 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (Verify getting inventory)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isOrderDeleted">
+                  </a> <!-- isOrderDeleted -->
+                  <span class="method-name">isOrderDeleted</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at api.StoreTests.isOrderDeleted(StoreTests.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify deleting order by id)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -548,15 +530,6 @@ Expected: &lt;1&gt;
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="isOrderDeleted">
-                  </a> <!-- isOrderDeleted -->
-                  <span class="method-name">isOrderDeleted</span>
-                  <em>
-(Verify deleting order by id)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="isOrderIdRetrieved">
                   </a> <!-- isOrderIdRetrieved -->
                   <span class="method-name">isOrderIdRetrieved</span>
@@ -569,16 +542,19 @@ Expected: &lt;1&gt;
         </div> <!-- panel Testing_API_URLs -->
         <div panel-name="test-xml-Selenium_4_POC_Tests_" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Ahmed\Desktop\sprite-cloud\src\test\resources\allsuites.xml</span>
+            <span class="header-content">C:\Users\Ahmed\Desktop\spritecloud\src\test\resources\allsuites.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Selenium 4 POC Tests &quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listener.TestCasesListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;suite-files&gt;
-    &lt;suite-file path=&quot;src\test\resources\api\apixmlfile.xml&quot;/&gt;
-    &lt;suite-file path=&quot;src\test\resources\web\webxmlfile.xml&quot;/&gt;
+    &lt;suite-file path=&quot;src/test/resources/api/apixmlfile.xml&quot;/&gt;
+    &lt;suite-file path=&quot;src/test/resources/web/webxmlfile.xml&quot;/&gt;
   &lt;/suite-files&gt;
 &lt;/suite&gt; &lt;!-- Selenium 4 POC Tests  --&gt;
             </pre>
@@ -586,13 +562,16 @@ Expected: &lt;1&gt;
         </div> <!-- panel -->
         <div panel-name="test-xml-Testing_Web_app" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Ahmed\Desktop\sprite-cloud\src\test\resources\web\webxmlfile.xml</span>
+            <span class="header-content">C:\Users\Ahmed\Desktop\spritecloud\src\test\resources\web\webxmlfile.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Testing Web app&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listener.TestCasesListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Resources Tests&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;web.ResourcesTests&quot;/&gt;
@@ -614,13 +593,16 @@ Expected: &lt;1&gt;
         </div> <!-- panel -->
         <div panel-name="test-xml-Testing_API_URLs" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Ahmed\Desktop\sprite-cloud\src\test\resources\api\apixmlfile.xml</span>
+            <span class="header-content">C:\Users\Ahmed\Desktop\spritecloud\src\test\resources\api\apixmlfile.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Testing API URLs&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listener.TestCasesListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Store Tests&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;api.StoreTests&quot;/&gt;
@@ -731,66 +713,66 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(14);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'trackProgressBarUpdate')
+data.setCell(0, 1, 'isAjaxDataLoaded')
 data.setCell(0, 2, 'web.HomePageTests')
-data.setCell(0, 3, 20319);
+data.setCell(0, 3, 15656);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'isAjaxDataLoaded')
+data.setCell(1, 1, 'isButtonDispalyedAfterDealy')
 data.setCell(1, 2, 'web.HomePageTests')
-data.setCell(1, 3, 15857);
+data.setCell(1, 3, 5353);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'isButtonDispalyedAfterDealy')
+data.setCell(2, 1, 'trackProgressBarUpdate')
 data.setCell(2, 2, 'web.HomePageTests')
-data.setCell(2, 3, 5326);
+data.setCell(2, 3, 3202);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'isGreenButtonNotClickable')
 data.setCell(3, 2, 'web.HomePageTests')
-data.setCell(3, 3, 1453);
+data.setCell(3, 3, 1475);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'isCpuValueMatchChromeCpuValue')
-data.setCell(4, 2, 'web.HomePageTests')
-data.setCell(4, 3, 592);
+data.setCell(4, 1, 'isUiTabPageOpened')
+data.setCell(4, 2, 'web.NavBarTests')
+data.setCell(4, 3, 628);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'isTextAddedToField')
+data.setCell(5, 1, 'isCpuValueMatchChromeCpuValue')
 data.setCell(5, 2, 'web.HomePageTests')
-data.setCell(5, 3, 396);
+data.setCell(5, 3, 614);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'isDyanmicIdButtonChanged')
+data.setCell(6, 1, 'isTextAddedToField')
 data.setCell(6, 2, 'web.HomePageTests')
-data.setCell(6, 3, 383);
+data.setCell(6, 3, 388);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'isHomePageOpened')
-data.setCell(7, 2, 'web.NavBarTests')
-data.setCell(7, 3, 343);
+data.setCell(7, 1, 'isDyanmicIdButtonChanged')
+data.setCell(7, 2, 'web.HomePageTests')
+data.setCell(7, 3, 370);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'isAlertPopUpClosed')
-data.setCell(8, 2, 'web.HomePageTests')
-data.setCell(8, 3, 343);
+data.setCell(8, 1, 'isResourcePageOpened')
+data.setCell(8, 2, 'web.NavBarTests')
+data.setCell(8, 3, 357);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'isButtonIgnoringActionClicked')
+data.setCell(9, 1, 'isAlertPopUpClosed')
 data.setCell(9, 2, 'web.HomePageTests')
-data.setCell(9, 3, 338);
+data.setCell(9, 3, 353);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'isResourcePageOpened')
-data.setCell(10, 2, 'web.NavBarTests')
-data.setCell(10, 3, 331);
+data.setCell(10, 1, 'isButtonIgnoringActionClicked')
+data.setCell(10, 2, 'web.HomePageTests')
+data.setCell(10, 3, 333);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'isUiTabPageOpened')
+data.setCell(11, 1, 'isHomePageOpened')
 data.setCell(11, 2, 'web.NavBarTests')
-data.setCell(11, 3, 282);
+data.setCell(11, 3, 326);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'isResourcePageLinksPresented')
 data.setCell(12, 2, 'web.ResourcesTests')
-data.setCell(12, 3, 124);
+data.setCell(12, 3, 171);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'isResourcesPageHeadersPresented')
 data.setCell(13, 2, 'web.ResourcesTests')
-data.setCell(13, 3, 55);
+data.setCell(13, 3, 87);
 window.suiteTableData['Testing_Web_app']= { tableData: data, tableDiv: 'times-div-Testing_Web_app'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
               <div id="times-div-Testing_Web_app">
               </div> <!-- times-div-Testing_Web_app -->
             </div> <!-- times-div -->
@@ -814,24 +796,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'isOrderAdded')
 data.setCell(0, 2, 'api.StoreTests')
-data.setCell(0, 3, 2418);
+data.setCell(0, 3, 4122);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'isInventroyReturned')
 data.setCell(1, 2, 'api.StoreTests')
-data.setCell(1, 3, 734);
+data.setCell(1, 3, 931);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'isOrderIdRetrieved')
 data.setCell(2, 2, 'api.StoreTests')
-data.setCell(2, 3, 659);
+data.setCell(2, 3, 703);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'isOrderDeleted')
 data.setCell(3, 2, 'api.StoreTests')
-data.setCell(3, 3, 641);
+data.setCell(3, 3, 700);
 window.suiteTableData['Testing_API_URLs']= { tableData: data, tableDiv: 'times-div-Testing_API_URLs'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Testing_API_URLs">
               </div> <!-- times-div-Testing_API_URLs -->
             </div> <!-- times-div -->
@@ -899,135 +881,133 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">isResourcesPageHeadersPresented</span>
-                <span class="method-start">2221 ms</span>
+                <span class="method-start">3206 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">isResourcePageLinksPresented</span>
-                <span class="method-start">2277 ms</span>
+                <span class="method-start">3295 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeWebDriver</span>
-                <span class="method-start">2402 ms</span>
+                <span class="method-start">3468 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">web.NavBarTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">openPageURL</span>
-                <span class="method-start">18646 ms</span>
+                <span class="method-start">19653 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">initiateNavBarWebElement</span>
-                <span class="method-start">20159 ms</span>
+                <span class="method-start">21235 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isHomePageOpened</span>
-                <span class="method-start">20179 ms</span>
+                <span class="method-start">21251 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">initiateNavBarWebElement</span>
-                <span class="method-start">20523 ms</span>
+                <span class="method-start">21578 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isResourcePageOpened</span>
-                <span class="method-start">20529 ms</span>
+                <span class="method-start">21586 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">initiateNavBarWebElement</span>
-                <span class="method-start">20861 ms</span>
+                <span class="method-start">21944 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isUiTabPageOpened</span>
-                <span class="method-start">20868 ms</span>
+                <span class="method-start">21952 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeWebDriver</span>
-                <span class="method-start">21151 ms</span>
+                <span class="method-start">22581 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">web.HomePageTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">openPageURL</span>
-                <span class="method-start">37318 ms</span>
+                <span class="method-start">38788 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">isDyanmicIdButtonChanged</span>
-                <span class="method-start">38962 ms</span>
+                <span class="method-start">40321 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">forwardBackToHomePage</span>
-                <span class="method-start">39345 ms</span>
+                <span class="method-start">40692 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">isAlertPopUpClosed</span>
-                <span class="method-start">39359 ms</span>
+                <span class="method-start">40709 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">forwardBackToHomePage</span>
-                <span class="method-start">39702 ms</span>
+                <span class="method-start">41062 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">isGreenButtonNotClickable</span>
-                <span class="method-start">39715 ms</span>
+                <span class="method-start">41078 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">forwardBackToHomePage</span>
-                <span class="method-start">41170 ms</span>
+                <span class="method-start">42554 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">isButtonDispalyedAfterDealy</span>
-                <span class="method-start">41191 ms</span>
+                <span class="method-start">42574 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">forwardBackToHomePage</span>
-                <span class="method-start">46517 ms</span>
+                <span class="method-start">47927 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">isAjaxDataLoaded</span>
-                <span class="method-start">46535 ms</span>
+                <span class="method-start">47943 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">forwardBackToHomePage</span>
-                <span class="method-start">62393 ms</span>
+                <span class="method-start">63600 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">isButtonIgnoringActionClicked</span>
-                <span class="method-start">62414 ms</span>
+                <span class="method-start">63616 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">forwardBackToHomePage</span>
-                <span class="method-start">62752 ms</span>
+                <span class="method-start">63949 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">isTextAddedToField</span>
-                <span class="method-start">62767 ms</span>
+                <span class="method-start">63969 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">forwardBackToHomePage</span>
-                <span class="method-start">63164 ms</span>
+                <span class="method-start">64357 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">isCpuValueMatchChromeCpuValue</span>
-                <span class="method-start">63182 ms</span>
+                <span class="method-start">64372 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">forwardBackToHomePage</span>
-                <span class="method-start">63775 ms</span>
+                <span class="method-start">64987 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">trackProgressBarUpdate</span>
-                <span class="method-start">63799 ms</span>
+                <span class="method-start">65014 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">forwardBackToHomePage</span>
-                <span class="method-start">84119 ms</span>
+                <span class="method-start">68217 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closeWebDriver</span>
-                <span class="method-start">84131 ms</span>
+                <span class="method-start">68233 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -1044,21 +1024,23 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">isOrderAdded</span>
-                <span class="method-start">344 ms</span>
+                <span class="method-start">584 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">isOrderIdRetrieved</span>
-                <span class="method-start">2766 ms</span>
+                <span class="method-start">4714 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">isOrderDeleted</span>
-                <span class="method-start">3425 ms</span>
+                <span class="method-start">5418 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">isInventroyReturned</span>
-                <span class="method-start">4067 ms</span>
+                <span class="method-start">6121 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
