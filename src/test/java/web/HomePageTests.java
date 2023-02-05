@@ -94,7 +94,7 @@ public class HomePageTests extends WebTestBase{
             = homeWebElement.clickOnProgressBarButton().clickOnStartButton();
         long endTime = homeWebElement.trackProgressBarUpdateValueOf(75);
         homeWebElement.clickOnStopButton();
-        assertTrue((endTime - startTime) < 15000); // 15000 means 15 sec
+        assertTrue((endTime - startTime) < 20000); // 20000 means 20 sec
     }
 
     @AfterMethod

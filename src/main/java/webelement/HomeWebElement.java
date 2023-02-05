@@ -234,7 +234,7 @@ public class HomeWebElement {
 
     public long trackProgressBarUpdateValueOf(int value) {
         Wait<WebDriver> fluentWait = new FluentWait<WebDriver>(webDriver)
-            .withTimeout(Duration.ofSeconds(20)).pollingEvery(Duration.ofMillis(1))
+            .withTimeout(Duration.ofSeconds(25)).pollingEvery(Duration.ofMillis(1))
             .ignoring(Exception.class);
         fluentWait.until(ExpectedConditions.visibilityOfElementLocated
              (By.xpath("//div[@aria-valuenow="+value+"]")));

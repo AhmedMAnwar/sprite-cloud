@@ -1,21 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="5" failed="3" skipped="0">
+<testng-results ignored="0" total="22" passed="18" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-02T16:52:14 CET" name="Testing API URLs" finished-at="2023-02-02T16:52:22 CET" duration-ms="7555">
+  <suite started-at="2023-02-02T17:18:58 CET" name="Selenium 4 POC Tests " finished-at="2023-02-02T17:18:58 CET" duration-ms="0">
     <groups>
     </groups>
-    <test started-at="2023-02-02T16:52:14 CET" name="Store Tests" finished-at="2023-02-02T16:52:19 CET" duration-ms="4875">
+  </suite> <!-- Selenium 4 POC Tests  -->
+  <suite started-at="2023-02-02T17:17:15 CET" name="Testing Web app" finished-at="2023-02-02T17:18:51 CET" duration-ms="96014">
+    <groups>
+    </groups>
+    <test started-at="2023-02-02T17:17:15 CET" name="Resources Tests" finished-at="2023-02-02T17:17:33 CET" duration-ms="18393">
+      <class name="web.ResourcesTests">
+        <test-method is-config="true" signature="openPageURL()[pri:0, instance:web.ResourcesTests@67c33749]" started-at="2023-02-02T17:17:15 CET" name="openPageURL" finished-at="2023-02-02T17:17:17 CET" duration-ms="1979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPageURL -->
+        <test-method signature="isResourcesPageHeadersPresented()[pri:1, instance:web.ResourcesTests@67c33749]" started-at="2023-02-02T17:17:17 CET" name="isResourcesPageHeadersPresented" description="Veryfing resources page having all headers" finished-at="2023-02-02T17:17:17 CET" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isResourcesPageHeadersPresented -->
+        <test-method signature="isResourcePageLinksPresented()[pri:2, instance:web.ResourcesTests@67c33749]" started-at="2023-02-02T17:17:17 CET" name="isResourcePageLinksPresented" description="Veryfing resource page having all links" finished-at="2023-02-02T17:17:17 CET" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isResourcePageLinksPresented -->
+        <test-method is-config="true" signature="closeWebDriver()[pri:0, instance:web.ResourcesTests@67c33749]" started-at="2023-02-02T17:17:17 CET" name="closeWebDriver" finished-at="2023-02-02T17:17:33 CET" duration-ms="16215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebDriver -->
+      </class> <!-- web.ResourcesTests -->
+    </test> <!-- Resources Tests -->
+    <test started-at="2023-02-02T17:17:33 CET" name="NavBar Tests" finished-at="2023-02-02T17:17:52 CET" duration-ms="18745">
+      <class name="web.NavBarTests">
+        <test-method is-config="true" signature="openPageURL()[pri:0, instance:web.NavBarTests@e15b7e8]" started-at="2023-02-02T17:17:33 CET" name="openPageURL" finished-at="2023-02-02T17:17:35 CET" duration-ms="1614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPageURL -->
+        <test-method is-config="true" signature="initiateNavBarWebElement()[pri:0, instance:web.NavBarTests@e15b7e8]" started-at="2023-02-02T17:17:35 CET" name="initiateNavBarWebElement" finished-at="2023-02-02T17:17:35 CET" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateNavBarWebElement -->
+        <test-method signature="isHomePageOpened()[pri:1, instance:web.NavBarTests@e15b7e8]" started-at="2023-02-02T17:17:35 CET" name="isHomePageOpened" description="Veryfing switching to home tab" finished-at="2023-02-02T17:17:35 CET" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isHomePageOpened -->
+        <test-method is-config="true" signature="initiateNavBarWebElement()[pri:0, instance:web.NavBarTests@e15b7e8]" started-at="2023-02-02T17:17:35 CET" name="initiateNavBarWebElement" finished-at="2023-02-02T17:17:35 CET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateNavBarWebElement -->
+        <test-method signature="isResourcePageOpened()[pri:2, instance:web.NavBarTests@e15b7e8]" started-at="2023-02-02T17:17:35 CET" name="isResourcePageOpened" description="Veryfing switching to resources tab" finished-at="2023-02-02T17:17:36 CET" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isResourcePageOpened -->
+        <test-method is-config="true" signature="initiateNavBarWebElement()[pri:0, instance:web.NavBarTests@e15b7e8]" started-at="2023-02-02T17:17:36 CET" name="initiateNavBarWebElement" finished-at="2023-02-02T17:17:36 CET" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateNavBarWebElement -->
+        <test-method signature="isUiTabPageOpened()[pri:3, instance:web.NavBarTests@e15b7e8]" started-at="2023-02-02T17:17:36 CET" name="isUiTabPageOpened" description="Veryfing switching to UI tab" finished-at="2023-02-02T17:17:36 CET" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isUiTabPageOpened -->
+        <test-method is-config="true" signature="closeWebDriver()[pri:0, instance:web.NavBarTests@e15b7e8]" started-at="2023-02-02T17:17:36 CET" name="closeWebDriver" finished-at="2023-02-02T17:17:52 CET" duration-ms="16191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebDriver -->
+      </class> <!-- web.NavBarTests -->
+    </test> <!-- NavBar Tests -->
+    <test started-at="2023-02-02T17:17:52 CET" name="Home Page Tests" finished-at="2023-02-02T17:18:51 CET" duration-ms="58854">
+      <class name="web.HomePageTests">
+        <test-method is-config="true" signature="openPageURL()[pri:0, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:17:52 CET" name="openPageURL" finished-at="2023-02-02T17:17:54 CET" duration-ms="1661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPageURL -->
+        <test-method signature="isDyanmicIdButtonChanged()[pri:1, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:17:54 CET" name="isDyanmicIdButtonChanged" description="Veryfing that button id is not changed" finished-at="2023-02-02T17:17:54 CET" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDyanmicIdButtonChanged -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:17:54 CET" name="forwardBackToHomePage" finished-at="2023-02-02T17:17:54 CET" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method signature="isAlertPopUpClosed()[pri:2, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:17:54 CET" name="isAlertPopUpClosed" description="Veryfing if the alert is closed" finished-at="2023-02-02T17:17:55 CET" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAlertPopUpClosed -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:17:55 CET" name="forwardBackToHomePage" finished-at="2023-02-02T17:17:55 CET" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method signature="isGreenButtonNotClickable()[pri:3, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:17:55 CET" name="isGreenButtonNotClickable" description="Veryfing the green button is not clickable" finished-at="2023-02-02T17:17:56 CET" duration-ms="1515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isGreenButtonNotClickable -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:17:56 CET" name="forwardBackToHomePage" finished-at="2023-02-02T17:17:56 CET" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method signature="isButtonDispalyedAfterDealy()[pri:4, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:17:56 CET" name="isButtonDispalyedAfterDealy" description="Veryfing the button apperance after dealy" finished-at="2023-02-02T17:18:02 CET" duration-ms="5382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isButtonDispalyedAfterDealy -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:18:02 CET" name="forwardBackToHomePage" finished-at="2023-02-02T17:18:02 CET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method signature="isAjaxDataLoaded()[pri:5, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:18:02 CET" name="isAjaxDataLoaded" description="Veryfing the apperance of AJAX data" finished-at="2023-02-02T17:18:17 CET" duration-ms="15840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAjaxDataLoaded -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:18:17 CET" name="forwardBackToHomePage" finished-at="2023-02-02T17:18:17 CET" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method signature="isButtonIgnoringActionClicked()[pri:6, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:18:17 CET" name="isButtonIgnoringActionClicked" description="Veryfing action over button ignoring click" finished-at="2023-02-02T17:18:18 CET" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isButtonIgnoringActionClicked -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:18:18 CET" name="forwardBackToHomePage" finished-at="2023-02-02T17:18:18 CET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method signature="isTextAddedToField()[pri:7, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:18:18 CET" name="isTextAddedToField" description="Veryfing added text in text field" finished-at="2023-02-02T17:18:18 CET" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTextAddedToField -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:18:18 CET" name="forwardBackToHomePage" finished-at="2023-02-02T17:18:18 CET" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method signature="isCpuValueMatchChromeCpuValue()[pri:8, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:18:18 CET" name="isCpuValueMatchChromeCpuValue" description="Veryfing matching between CPU cell value and chrome CPU value" finished-at="2023-02-02T17:18:19 CET" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCpuValueMatchChromeCpuValue -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:18:19 CET" name="forwardBackToHomePage" finished-at="2023-02-02T17:18:19 CET" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method signature="trackProgressBarUpdate()[pri:9, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:18:19 CET" name="trackProgressBarUpdate" description="Veryfing the time of progress bar updates" finished-at="2023-02-02T17:18:35 CET" duration-ms="15982" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at web.HomePageTests.trackProgressBarUpdate(HomePageTests.java:97)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trackProgressBarUpdate -->
+        <test-method is-config="true" signature="forwardBackToHomePage()[pri:0, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:18:35 CET" name="forwardBackToHomePage" finished-at="2023-02-02T17:18:35 CET" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardBackToHomePage -->
+        <test-method is-config="true" signature="closeWebDriver()[pri:0, instance:web.HomePageTests@6404f418]" started-at="2023-02-02T17:18:35 CET" name="closeWebDriver" finished-at="2023-02-02T17:18:51 CET" duration-ms="16172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebDriver -->
+      </class> <!-- web.HomePageTests -->
+    </test> <!-- Home Page Tests -->
+  </suite> <!-- Testing Web app -->
+  <suite started-at="2023-02-02T17:18:51 CET" name="Testing API URLs" finished-at="2023-02-02T17:18:58 CET" duration-ms="7345">
+    <groups>
+    </groups>
+    <test started-at="2023-02-02T17:18:51 CET" name="Store Tests" finished-at="2023-02-02T17:18:56 CET" duration-ms="4717">
       <class name="api.StoreTests">
-        <test-method is-config="true" signature="preConfiguration()[pri:0, instance:api.StoreTests@4d5b6aac]" started-at="2023-02-02T16:52:14 CET" name="preConfiguration" finished-at="2023-02-02T16:52:15 CET" duration-ms="329" status="PASS">
+        <test-method is-config="true" signature="preConfiguration()[pri:0, instance:api.StoreTests@7bab3f1a]" started-at="2023-02-02T17:18:51 CET" name="preConfiguration" finished-at="2023-02-02T17:18:51 CET" duration-ms="306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preConfiguration -->
-        <test-method signature="isOrderAdded()[pri:1, instance:api.StoreTests@4d5b6aac]" started-at="2023-02-02T16:52:15 CET" name="isOrderAdded" description="Verifying if the order is added" finished-at="2023-02-02T16:52:17 CET" duration-ms="2580" status="PASS">
+        <test-method signature="isOrderAdded()[pri:1, instance:api.StoreTests@7bab3f1a]" started-at="2023-02-02T17:18:51 CET" name="isOrderAdded" description="Verifying if the order is added" finished-at="2023-02-02T17:18:54 CET" duration-ms="2408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isOrderAdded -->
-        <test-method signature="isOrderIdRetrieved()[pri:2, instance:api.StoreTests@4d5b6aac]" started-at="2023-02-02T16:52:17 CET" name="isOrderIdRetrieved" description="Verify searching for order id" finished-at="2023-02-02T16:52:18 CET" duration-ms="637" status="FAIL">
+        <test-method signature="isOrderIdRetrieved()[pri:2, instance:api.StoreTests@7bab3f1a]" started-at="2023-02-02T17:18:54 CET" name="isOrderIdRetrieved" description="Verify searching for order id" finished-at="2023-02-02T17:18:54 CET" duration-ms="675" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -75,6 +266,7 @@ at org.testng.SuiteRunner.run(SuiteRunner.java:276)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
 at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
 at org.testng.TestNG.runSuites(TestNG.java:1063)
 at org.testng.TestNG.run(TestNG.java:1031)
@@ -87,7 +279,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isOrderIdRetrieved -->
-        <test-method signature="isOrderDeleted()[pri:3, instance:api.StoreTests@4d5b6aac]" started-at="2023-02-02T16:52:18 CET" name="isOrderDeleted" description="Verify deleting order by id" finished-at="2023-02-02T16:52:18 CET" duration-ms="631" status="FAIL">
+        <test-method signature="isOrderDeleted()[pri:3, instance:api.StoreTests@7bab3f1a]" started-at="2023-02-02T17:18:54 CET" name="isOrderDeleted" description="Verify deleting order by id" finished-at="2023-02-02T17:18:55 CET" duration-ms="624" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -145,6 +337,7 @@ at org.testng.SuiteRunner.run(SuiteRunner.java:276)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
 at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
 at org.testng.TestNG.runSuites(TestNG.java:1063)
 at org.testng.TestNG.run(TestNG.java:1031)
@@ -157,20 +350,20 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isOrderDeleted -->
-        <test-method signature="isInventroyReturned()[pri:4, instance:api.StoreTests@4d5b6aac]" started-at="2023-02-02T16:52:18 CET" name="isInventroyReturned" description="Verify getting inventory" finished-at="2023-02-02T16:52:19 CET" duration-ms="660" status="FAIL">
+        <test-method signature="isInventroyReturned()[pri:4, instance:api.StoreTests@7bab3f1a]" started-at="2023-02-02T17:18:55 CET" name="isInventroyReturned" description="Verify getting inventory" finished-at="2023-02-02T17:18:56 CET" duration-ms="695" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
-JSON path unavailable doesn't match.
-Expected: <1>
-  Actual: <3>
+JSON path pending doesn't match.
+Expected: <4>
+  Actual: <10>
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 1 expectation failed.
-JSON path unavailable doesn't match.
-Expected: <1>
-  Actual: <3>
+JSON path pending doesn't match.
+Expected: <4>
+  Actual: <10>
 
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -196,7 +389,7 @@ at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationI
 at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-at api.StoreTests.isInventroyReturned(StoreTests.java:59)
+at api.StoreTests.isInventroyReturned(StoreTests.java:60)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -219,6 +412,7 @@ at org.testng.SuiteRunner.run(SuiteRunner.java:276)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
 at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
 at org.testng.TestNG.runSuites(TestNG.java:1063)
 at org.testng.TestNG.run(TestNG.java:1031)
@@ -233,25 +427,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- isInventroyReturned -->
       </class> <!-- api.StoreTests -->
     </test> <!-- Store Tests -->
-    <test started-at="2023-02-02T16:52:19 CET" name="User Tests" finished-at="2023-02-02T16:52:22 CET" duration-ms="2649">
+    <test started-at="2023-02-02T17:18:56 CET" name="User Tests" finished-at="2023-02-02T17:18:58 CET" duration-ms="2618">
       <class name="api.UserTests">
-        <test-method signature="isUserArrayAdded()[pri:1, instance:api.UserTests@1b2abca6]" started-at="2023-02-02T16:52:19 CET" name="isUserArrayAdded" description="Verify adding users within an array" finished-at="2023-02-02T16:52:20 CET" duration-ms="657" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isUserArrayAdded -->
-        <test-method is-config="true" signature="preConfiguration()[pri:0, instance:api.UserTests@1b2abca6]" started-at="2023-02-02T16:52:19 CET" name="preConfiguration" finished-at="2023-02-02T16:52:19 CET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="preConfiguration()[pri:0, instance:api.UserTests@47d9a273]" started-at="2023-02-02T17:18:56 CET" name="preConfiguration" finished-at="2023-02-02T17:18:56 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preConfiguration -->
-        <test-method signature="isUserListAdded()[pri:2, instance:api.UserTests@1b2abca6]" started-at="2023-02-02T16:52:20 CET" name="isUserListAdded" description="Verify adding user within a list" finished-at="2023-02-02T16:52:20 CET" duration-ms="700" status="PASS">
+        <test-method signature="isUserArrayAdded()[pri:1, instance:api.UserTests@47d9a273]" started-at="2023-02-02T17:18:56 CET" name="isUserArrayAdded" description="Verify adding users within an array" finished-at="2023-02-02T17:18:56 CET" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isUserArrayAdded -->
+        <test-method signature="isUserListAdded()[pri:2, instance:api.UserTests@47d9a273]" started-at="2023-02-02T17:18:56 CET" name="isUserListAdded" description="Verify adding user within a list" finished-at="2023-02-02T17:18:57 CET" duration-ms="625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isUserListAdded -->
-        <test-method signature="isNotUserExist()[pri:3, instance:api.UserTests@1b2abca6]" started-at="2023-02-02T16:52:20 CET" name="isNotUserExist" description="Verify searching for a non exist user" finished-at="2023-02-02T16:52:21 CET" duration-ms="621" status="PASS">
+        <test-method signature="isNotUserExist()[pri:3, instance:api.UserTests@47d9a273]" started-at="2023-02-02T17:18:57 CET" name="isNotUserExist" description="Verify searching for a non exist user" finished-at="2023-02-02T17:18:58 CET" duration-ms="655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isNotUserExist -->
-        <test-method signature="isUserExist()[pri:4, instance:api.UserTests@1b2abca6]" started-at="2023-02-02T16:52:21 CET" name="isUserExist" description="Verify searching for an exist user" finished-at="2023-02-02T16:52:22 CET" duration-ms="666" status="PASS">
+        <test-method signature="isUserExist()[pri:4, instance:api.UserTests@47d9a273]" started-at="2023-02-02T17:18:58 CET" name="isUserExist" description="Verify searching for an exist user" finished-at="2023-02-02T17:18:58 CET" duration-ms="667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isUserExist -->
