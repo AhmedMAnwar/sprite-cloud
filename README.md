@@ -33,4 +33,13 @@ Repo presenting the test cases coverage of web portal of the following [UI TEST]
 ## Reprts
  **TestNG Emilable Report**
  - You can check the following report through this [Link](https://github.com/AhmedMAnwar/sprite-cloud/blob/master/test-output/emailable-report.html)
+ 
+ ![image](https://user-images.githubusercontent.com/60217499/216815578-25d6846a-ace5-4a54-9b48-8f1db8d5bb39.png)
+ ---------------------------------------------------------------------------------------------------------------------------------------
+ ![image](https://user-images.githubusercontent.com/60217499/216815677-50f9d5c7-03e0-4f10-bb19-157af5f87aee.png)
+
+**Calliope Report**
+![image](https://user-images.githubusercontent.com/60217499/216815725-d084f493-ef84-4ba7-9196-f904e1d4fd81.png)
+
+
      
