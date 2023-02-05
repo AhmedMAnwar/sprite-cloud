@@ -42,4 +42,7 @@ Repo presenting the test cases coverage of web portal of the following [UI TEST]
 ![image](https://user-images.githubusercontent.com/60217499/216815725-d084f493-ef84-4ba7-9196-f904e1d4fd81.png)
 
 
+## CI / CD
+- The project is running on Jenkins tool locally using a "Freestyle Project" type.
+
      
